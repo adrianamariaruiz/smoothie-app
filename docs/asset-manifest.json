@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2811ec8a.css",
+    "main.js": "/static/js/main.b71ba6a3.js",
+    "static/media/imagen3.jpeg": "/static/media/imagen3.54fabd990743df491fc9.jpeg",
+    "static/media/imagen4.jpeg": "/static/media/imagen4.9319f4bfd7f1464b1ab1.jpeg",
+    "static/media/imagen5.jpeg": "/static/media/imagen5.d626f3a6ca2c1fba952b.jpeg",
+    "static/media/imagen2.jpeg": "/static/media/imagen2.8113bda8edc3aeb4e69b.jpeg",
+    "static/media/imagen7.jpeg": "/static/media/imagen7.5e34cc86368db5fca48e.jpeg",
+    "static/media/imagen6.jpeg": "/static/media/imagen6.bdf28fa29b1b44b924af.jpeg",
+    "static/media/tostadaConFruta.jpeg": "/static/media/tostadaConFruta.d0d7a921c84c02cea4df.jpeg",
+    "static/media/imagen1.jpeg": "/static/media/imagen1.75f034d88111e2ac5a89.jpeg",
+    "static/media/logoNBC.png": "/static/media/logoNBC.c8e36b5a9b9d3e34ea55.png",
+    "index.html": "/index.html",
+    "main.2811ec8a.css.map": "/static/css/main.2811ec8a.css.map",
+    "main.b71ba6a3.js.map": "/static/js/main.b71ba6a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2811ec8a.css",
+    "static/js/main.b71ba6a3.js"
+  ]
+}
