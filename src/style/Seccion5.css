@@ -1,0 +1,133 @@
+
+.contenedor-principal-seccion5 {
+    height: 1240px;
+    width: 100%;
+}
+
+.contenido-texto-sec5 h1 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    height: 87px;
+    width: 790px;
+    text-align: center;
+    margin-left: 25%;
+}
+
+.contenido-texto-sec5 p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    width: 790px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.contenedor-imagenes-sec5 {
+    display: flex;
+    flex-direction: row;
+    width: 1230px;
+    height: 930px;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+.grupo1-imagenes-sec5{
+    width: 390px;
+    height: 922px; 
+}
+
+.imagen1-coctel-rojo {
+    background-image: url(../imagenes/imagen1.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 385px;
+    height: 440px;
+}
+
+.imagen2-ensalada{
+    background-image: url(../imagenes/imagen2.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 385px;
+    height: 440px;
+    margin-top: 40px;
+}
+
+.grupo2-imagenes-sec5 {
+    width: 365px;
+    height: 922px;
+    margin-left: 40px;
+}
+
+.imagen3-desayuno {
+    background-image: url(../imagenes/imagen3.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 278px;
+    width: 358px;
+}
+
+.imagen4-tortitas {
+    background-image: url(../imagenes/imagen4.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 278px;
+    width: 358px;
+    margin-top: 40px;
+}
+
+.imagen5-huevo {
+    background-image: url(../imagenes/imagen5.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 278px;
+    width: 358px;
+    margin-top: 40px;
+}
+
+.grupo3-imagenes-sec5{
+    width: 390px;
+    height: 922px;
+    margin-left: 40px;
+}
+
+.imagen6-cocteles {
+    background-image: url(../imagenes/imagen6.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 385px;
+    height: 440px;
+}
+
+.imagen7-frutas {
+    background-image: url(../imagenes/imagen7.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 385px;
+    height: 440px;
+    margin-top: 40px;
+}
+
+.boton-read-more-sec5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.boton-read-more-sec5 button{
+    color: white;
+    background-color: #5abcbf;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-style: none;  
+    cursor: pointer;
+}
+
+.boton-read-more-sec5 button:hover{
+    background-color: #47b3b6;
+}

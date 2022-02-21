@@ -1,0 +1,134 @@
+
+.contenedor-principal-seccion2 {
+    height: 570px;
+    width: 100%;
+}
+
+.contenedor-interno-sec2 {
+    background-image: url('../imagenes/tostadaConFruta.jpeg');
+    background-repeat: no-repeat;
+    background-size: 530px 215px;
+    background-position: bottom right;
+    display: flex;
+    justify-content: center;
+    height: 560px;
+    width: 75%;
+    margin-left: 180px;
+}
+
+.bloque-completo-sec2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 389px;
+    margin-top: -50px;
+}
+
+.titulo-parrafo-boton-sec2 {
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+.titulo-parrafo-boton-sec2 h1 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    margin-top: 20px;
+    width: 337px;
+    height: 87px;
+}
+
+.titulo-parrafo-boton-sec2 p {
+    width: 337px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    line-height: 1.6;
+    text-align: left;
+    padding: 5px 0px;
+}
+
+.titulo-parrafo-boton-sec2 button {
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    border-style: solid;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-top-width: 0;
+    cursor: pointer;
+}
+
+
+.over300 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: #5abcbf;
+    height: 389px;
+    width: 230px;
+}
+
+.over300 h1 {
+    font-weight: lighter;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+.over300 p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+
+
+.onlynatural {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;    
+    background-color: #6bc75d;
+    height: 389px;
+    width: 230px;
+    margin-left: 30px;
+}
+.onlynatural h1 {
+    font-weight: lighter;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+.onlynatural p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    padding-top: 20px;
+}
+
+.weight-loss {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: #b23c8a;
+    height: 389px;
+    width: 230px;
+    margin-left: 30px;
+}
+.weight-loss h1 {
+    font-weight: lighter;
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+.weight-loss p {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    padding-top: 20px;
+}

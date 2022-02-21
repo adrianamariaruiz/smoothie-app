@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&family=PT+Sans&family=Roboto&family=Roboto+Slab:wght@300;400&display=swap');
+
+.contenedor-principal-seecion1{
+    background-image: url(https://images01.nicepage.com/98/af/98af1a81f3f62ae873acf1eea3b18872.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.logo{
+    height: 40px;
+    width: 37px;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.cont-autor-logo-linea{
+    width: 554px;
+    height: 82px;
+    margin-left: 180px;
+    margin-top: 80px;
+    display: inline-block;
+}
+
+.logo-autor{
+    display: flex;
+    flex-direction: row;
+}
+
+.autor-cont{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 10px;
+    
+}
+
+.linea-logo-autor {
+    position: relative;
+    border-color: #454545;
+    border-width: 1px;
+    border-style: solid;
+    width: 357px;
+    margin: 10px auto 10px 35px;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-top-width: 0;
+}
+
+.cont-titulo-parrafo-boton{
+    width: 448px;
+    height: 298px;
+    margin-top: 20px;
+    margin-left: 180px;
+    display: flex;
+    flex-direction: row;
+}
+
+.borde-amarillo-izq {
+    background-color: #fed85f;
+    position: relative;
+    border-color: #fed85f;
+    height: 100px;
+    width: 20px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-top: 20px;
+}
+
+.titulo-parrafo-boton h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 48px;
+    margin-top: 6px;
+    margin-left: 25px;
+}
+
+.titulo-parrafo-boton p {
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.boton-read-more{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-left: 25px;
+    margin-top: 20px;
+    border-style: solid;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-top-width: 0;
+    cursor: pointer;
+}

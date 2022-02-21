@@ -1,0 +1,262 @@
+/* 
+laptop: 1040px
+tablet: 820px
+horizontal-phone: 640px
+phone: 440px
+ */
+
+ @media screen and (max-width: 1200px){
+    
+/* seccion1 */
+    .cont-titulo-parrafo-boton{
+        width: 500px;
+        margin-left: 60px;
+    }
+
+    .cont-autor-logo-linea{
+        margin-left: 60px
+    }
+    
+    .boton-read-more{
+        border-style: dashed;
+        border-color: black;
+    }
+
+/* seccion2 */
+    .contenedor-interno-sec2{
+        margin-left: 40px;
+        width: 90%;
+    }
+
+    .titulo-parrafo-boton-sec2 {
+        margin-right: 20px;
+        margin-left: 10px;
+        height: 340px;
+        width: 316px;
+    }
+
+    .titulo-parrafo-boton-sec2 h1 {
+        background-color: paleturquoise;
+        width: 292px;
+        height: 150px;
+        margin-top: 0px;
+    }
+    
+    .titulo-parrafo-boton-sec2 p {
+        background-color: rgb(193, 248, 104);
+        width: 295px;
+        height: 115px;
+        margin-top: 10px;
+        padding: 5px 5px;
+    }
+
+    .over300 {
+        width: 188px;
+    }
+
+    .onlynatural{
+        width: 188px;
+        margin-left: 30px;
+    }
+
+    .weight-loss {
+        width: 188px;
+        margin-left: 30px;
+    }
+
+/* seccion 3 */
+
+    .contenedor-principal-seccion3 {
+        height: 400px;
+    }
+
+    .contenedor-texto-sec3 {
+        height: 459px;
+        width: 447px;
+        margin-left: 30px; 
+        margin-top: -160px;
+    }
+
+    .contenedor-texto-sec3 h1 {
+        height: 200px;
+        width: 340px;
+    }
+    
+    .contenedor-texto-sec3 p {
+        width: 340px;
+        margin-top: 20px;
+    }
+
+/* Seccion 4 */
+
+    .cont-3-bloques-sec4 {
+        margin-left: 0px;
+        width: 100%;
+        height: 370px;
+    }
+
+    .texto-cont-sec4 h1 {
+        margin-left: 20%;
+    }
+    
+    .texto-cont-sec4 p {
+        margin-left: 20%;
+    }
+
+    .cont-3-bloques-sec4 h1 {
+        font-size: 24px;
+        width: 220px;
+    }
+    
+    .cont-3-bloques-sec4 h5 {
+        margin-left: 100px;
+    }
+    
+    .cont-3-bloques-sec4 p {
+        width: 240px;
+        margin-left: 20px;
+    }
+
+    .cont-3-bloques-sec4 img {
+        height: 82px;
+        width: 82px;
+    }
+
+    .bloque1-sec4 {
+        width: 273px;
+        height: 369px;
+    }
+
+    .bloque2-sec4 {
+        width: 273px;
+        height: 369px;
+    }
+
+    .bloque3-sec4 {
+        width: 273px;
+        height: 369px;
+    }
+
+/* Seccion 5 */
+
+    .contenido-texto-sec5 h1 {
+        margin-left: 15%;
+    }
+
+    .contenido-texto-sec5 p {
+        margin-left: 15%;
+    }
+
+    .contenedor-imagenes-sec5 {
+        width: 962px;
+        margin-left: 5%;
+    }
+
+    .imagen1-coctel-rojo {
+        width: 292px;
+        height: 429px;
+    }
+
+    .imagen2-ensalada {
+        width: 292px;
+        height: 429px;
+    }
+
+    .grupo2-imagenes-sec5 {
+        width: 365px;
+        height: 922px;
+        margin-left: 40px;
+    }
+
+    .imagen3-desayuno {
+        width: 292px;
+        height: 278px;
+    }
+
+    .imagen4-tortitas {
+        width: 292px;
+        height: 278px;
+    }
+
+    .imagen5-huevo {
+        width: 292px;
+        height: 278px;
+    }
+
+    .imagen6-cocteles {
+        width: 292px;
+        height: 429px;
+    }
+
+    .imagen7-frutas {
+        width: 292px;
+        height: 429px;
+    }
+
+/* Seccion 6 */
+
+    .cont-texto-sec6 {
+        margin-left: 10%;
+    }
+
+    .contenedor-bloques-sec6 {
+        margin-left: 0%;
+        width: 100%;
+        height: 578px;
+    }
+
+    .bloque1-sec6 {
+        width: 293px;
+        height: 568px;
+    }
+    .imagen-bloque1-sec6 {
+        width: 280px;
+    }
+    
+    .bloque2-sec6 {
+        width: 293px;
+        height: 568px;
+    }
+    .imagen-bloque2-sec6 {
+        width: 280px;
+    }
+    
+    .bloque3-sec6 {
+        width: 293px;
+        height: 568px;
+    }
+    .imagen-bloque3-sec6 {
+        width: 280px;
+    }
+
+    .contenedor-bloques-sec6 p {
+        width: 260px;
+    }
+
+/* Seccion 7 */
+
+    .contenido-sec7 {
+        width: 51%;
+    }
+
+/* Seccion 8 */
+
+    .contenedor-titulo {
+        margin-left: 17%;
+    }
+
+    .contenedor-formulario {
+        margin-left: 10%;
+    }
+
+/* Footer */
+
+    .contenedor-3bloques-footer {
+        margin-left: 10%;
+    }
+
+    .linea {
+        margin-left: 15%;
+    }
+
+ }

@@ -1,0 +1,51 @@
+
+
+.contenedor-principal-seccion3 {
+    border-style: solid;
+    width: 100%;
+    height: 581px;
+    background-image: url(https://images01.nicepage.com/5f/c6/5fc626299ace30b720566d81952c6cd9.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contenedor-texto-sec3 {
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    padding-left: 50px;
+    padding-top: 40px;
+    margin-left: 240px;
+    margin-top: -140px;
+}
+
+.contenedor-texto-sec3 h1 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: lighter;
+    height: 129px;
+    width: 405px;
+}
+
+.contenedor-texto-sec3 p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    height: 80px;
+    width: 405px;
+    margin-top: 40px;
+}
+
+.contenedor-texto-sec3 button {
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    border-style: dashed;
+    border-width: thin;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-top-width: 0;
+    cursor: pointer;
+}

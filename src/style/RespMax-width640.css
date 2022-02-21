@@ -1,0 +1,172 @@
+/* 
+laptop: 1040px
+tablet: 820px
+horizontal-phone: 640px
+phone: 440px
+ */
+
+ /* desde los 500px hasta los 640px */
+ @media screen and (max-width: 640px){
+
+/* Seccion 1 */
+
+    .contenedor-principal-seecion1 {
+        background-position: 32%;
+    }
+
+    .titulo-parrafo-boton h1 {
+        font-size: 36px;
+    }
+
+    .titulo-parrafo-boton p {
+        width: 300px;
+    }
+
+/* Seccion 2 */
+
+    .titulo-parrafo-boton-sec2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .titulo-parrafo-boton-sec2 h1 {
+        width: 350px;
+        height: 87px;
+        margin-left: 20px;
+    }
+
+    .titulo-parrafo-boton-sec2 p {
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    .titulo-parrafo-boton-sec2 button {
+        margin-left: 20px;
+    }
+
+    .over300 {
+        margin-left: 70px;
+        width: 340px;
+        height: 410px;
+    }
+
+    .over300 h1 {
+        margin-left: 50px;
+    }
+
+    .onlynatural {
+        margin-left: 70px;
+        width: 340px;
+        height: 410px;
+    }
+
+
+    .weight-loss {
+        margin-left: 70px;
+        width: 340px;
+        height: 410px;
+    }
+
+    .weight-loss h1 {
+        margin-left: 20px;
+    }
+
+/* Seccion 4 */
+
+    .bloque1-sec4, .bloque2-sec4, .bloque3-sec4 {
+        width: 280px;
+    }
+
+    .bloque1-sec4 p, .bloque2-sec4 p, .bloque3-sec4 p {
+        width: 250px;
+    }
+
+/* Seccion 5 */
+
+    .contenido-texto-sec5 h1 {
+        font-size: 30px;
+        width: 340px;
+        height: 150px;
+    }
+
+    .contenido-texto-sec5 p {
+        width: 340px;
+    }
+
+    .contenedor-imagenes-sec5 {
+        align-content: center;
+    }
+
+    .imagen1-coctel-rojo, .imagen2-ensalada {
+        width: 340px;
+    }
+
+    .imagen3-desayuno, .imagen4-tortitas, .imagen5-huevo {
+        width: 340px;
+    }
+
+    .imagen6-cocteles {
+        width: 340px;
+        margin-top: 20px;
+    }
+
+    .imagen7-frutas {
+        width: 340px;
+    }
+
+/* Seccion 6 */
+
+    .cont-texto-sec6 h1 {
+        font-size: 30px;
+        width: 340px;
+        height: auto;
+    }
+
+    .cont-texto-sec6 p {
+        margin-top: 20px;
+        width: 300px;
+    }
+
+    .bloque1-sec6, .bloque2-sec6, .bloque3-sec6 {
+        width: 340px;
+        height: 476px;
+    }
+
+    .imagen-bloque1-sec6, .imagen-bloque2-sec6, .imagen-bloque3-sec6 {
+        width: 330px;
+        height: 293px;
+    }
+
+    .bloque1-sec6 h1, .bloque2-sec6 h1, .bloque3-sec6 h1 {
+        font-size: 24px;
+        width: 320px;
+        margin-left: 10px;
+    }
+
+    .bloque1-sec6 p, .bloque2-sec6 p, .bloque3-sec6 p {
+        width: 320px;
+        margin-left: 10px;
+    }
+
+/* Seccion 8 */
+
+    .contenedor-formulario {
+        width: 100%;
+    }
+
+    .formulario, .control-formulario, .message-textarea {
+        width: 400px;
+    }
+
+/* Footer */
+
+    .contenedor-3bloques-footer {
+        width: 100%;
+    }
+
+    .bloque1-footer, .bloque2-footer, .bloque3-footer {
+    width: 300px;
+    margin-bottom: 20px;
+    }
+
+}
