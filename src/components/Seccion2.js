@@ -11,17 +11,14 @@ export const Seccion2 = () => {
                         <button>read more</button>
                     </div>
                     <div className='over300'>
-                        <img></img>
                         <h1>Over 300 Food Products</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
                     </div>
                     <div className='onlynatural'>
-                        <img></img>
                         <h1>Only Natural Products</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
                     </div>
                     <div className='weight-loss'>
-                        <img></img>
                         <h1>Significant Weight Loss</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.</p>
                     </div>

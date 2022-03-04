@@ -1,19 +1,68 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useForm } from '../Hooks/useForm'
 
 export const Seccion8 = () => {
 
-    const [formValues, handleInputChange] = useForm({
+    const [formValues, handleInputChange, reset] = useForm({
         name: '',
         email: '',
-        mensaje: ''
+        mensaje: '',
     });
 
     const { name, email, mensaje } = formValues;
 
+    const [error, seterror] = useState({
+        nameError: '',
+        mensajeError: '',
+        emailError: ''
+    })
+
+    const isFormValid = () => {
+
+        const regEx = /[a-zA-Z0-9!#$%&'*/=?^_`{|}~+-]+@[a-zA-Z0-9]([^@&%$/()=?¿!.,:;]|\d)+[a-zA-Z0-9][.][a-zA-Z]{2,4}([.][a-zA-Z]{2})?/g
+        // const regEx = /[a-zA-Z0-9!#$%&'*\/=?^_`{|}~+-]([\.]?[a-zA-Z0-9!#$%&'*\/=?^_`{|}~+-])+@[a-zA-Z0-9]([^@&%$/()=?¿!.,:;]|\d)+[a-zA-Z0-9][\.][a-zA-Z]{2,4}([\.][a-zA-Z]{2})?/g
+
+        if (name.trim().length === 0) {
+            seterror({
+                ...error,
+                nameError: 'name is required'
+            });
+            return false
+        };
+
+        if (mensaje.trim().length === 0) {
+            seterror({
+                ...error,
+                mensajeError: 'mensaje is required'
+            });
+            return false
+        }
+
+        if (email.trim().length === 0 || !regEx.test(email)) {
+            seterror({
+                ...error,
+                emailError: 'email is empty or wrong'
+            });
+            return false
+        }
+
+        if (error.nameError || error.mensajeError || error.emailError) {
+            seterror({
+                ...error,
+                nameError: '',
+                mensajeError: '',
+                emailError: ''
+            })
+        }
+        return true
+    }
+
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(formValues)
+        if (isFormValid()) {
+            console.log(formValues)
+            reset();
+        }
     }
 
     return (
@@ -35,6 +84,8 @@ export const Seccion8 = () => {
                             value={name}
                             onChange={handleInputChange}
                         />
+                        <div className='errorMessage'>{error.nameError}</div>
+
                     </div>
                     <div className='formulario'>
                         <input
@@ -46,6 +97,8 @@ export const Seccion8 = () => {
                             value={email}
                             onChange={handleInputChange}
                         />
+                        <div className='errorMessage'>{error.emailError}</div>
+
                     </div>
                     <div className='formulario'>
                         <textarea
@@ -57,6 +110,7 @@ export const Seccion8 = () => {
                             value={mensaje}
                             onChange={handleInputChange}
                         />
+                        <div className='errorMessage'>{error.mensajeError}</div>
                     </div>
 
                     <button type='submit' className='boton-submit-sec8'>

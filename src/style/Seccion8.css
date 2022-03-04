@@ -64,6 +64,11 @@
     padding: 10px 12px;
 }
 
+.errorMessage {
+    color: red;
+    font-size: 14px;
+}
+
 .boton-submit-sec8 {
     color: white;
     background-color: #5abcbf;
