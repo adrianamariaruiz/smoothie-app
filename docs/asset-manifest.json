@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.7ddfab39.css",
-    "main.js": "./static/js/main.6e58a079.js",
+    "main.css": "./static/css/main.163e9759.css",
+    "main.js": "./static/js/main.2cacf47d.js",
     "static/media/imagen3.jpeg": "./static/media/imagen3.54fabd990743df491fc9.jpeg",
     "static/media/imagen4.jpeg": "./static/media/imagen4.9319f4bfd7f1464b1ab1.jpeg",
     "static/media/imagen5.jpeg": "./static/media/imagen5.d626f3a6ca2c1fba952b.jpeg",
@@ -12,11 +12,11 @@
     "static/media/imagen1.jpeg": "./static/media/imagen1.75f034d88111e2ac5a89.jpeg",
     "static/media/logoNBC.png": "./static/media/logoNBC.c8e36b5a9b9d3e34ea55.png",
     "index.html": "./index.html",
-    "main.7ddfab39.css.map": "./static/css/main.7ddfab39.css.map",
-    "main.6e58a079.js.map": "./static/js/main.6e58a079.js.map"
+    "main.163e9759.css.map": "./static/css/main.163e9759.css.map",
+    "main.2cacf47d.js.map": "./static/js/main.2cacf47d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ddfab39.css",
-    "static/js/main.6e58a079.js"
+    "static/css/main.163e9759.css",
+    "static/js/main.2cacf47d.js"
   ]
 }

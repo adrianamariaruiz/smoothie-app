@@ -11,55 +11,43 @@ export const Seccion8 = () => {
 
     const { name, email, mensaje } = formValues;
 
-    const [error, seterror] = useState({
+    const [error, setError] = useState({
         nameError: '',
         mensajeError: '',
         emailError: ''
     })
 
-    const isFormValid = () => {
-
-        const regEx = /[a-zA-Z0-9!#$%&'*/=?^_`{|}~+-]+@[a-zA-Z0-9]([^@&%$/()=?¿!.,:;]|\d)+[a-zA-Z0-9][.][a-zA-Z]{2,4}([.][a-zA-Z]{2})?/g
-        // const regEx = /[a-zA-Z0-9!#$%&'*\/=?^_`{|}~+-]([\.]?[a-zA-Z0-9!#$%&'*\/=?^_`{|}~+-])+@[a-zA-Z0-9]([^@&%$/()=?¿!.,:;]|\d)+[a-zA-Z0-9][\.][a-zA-Z]{2,4}([\.][a-zA-Z]{2})?/g
-
-        if (name.trim().length === 0) {
-            seterror({
-                ...error,
-                nameError: 'name is required'
-            });
-            return false
-        };
-
-        if (mensaje.trim().length === 0) {
-            seterror({
-                ...error,
-                mensajeError: 'mensaje is required'
-            });
-            return false
-        }
-
-        if (email.trim().length === 0 || !regEx.test(email)) {
-            seterror({
-                ...error,
-                emailError: 'email is empty or wrong'
-            });
-            return false
-        }
-
-        if (error.nameError || error.mensajeError || error.emailError) {
-            seterror({
-                ...error,
-                nameError: '',
-                mensajeError: '',
-                emailError: ''
-            })
-        }
-        return true
-    }
+    const regEx = /[a-zA-Z0-9!#$%&'*/=?^_`{|}~+-]+@[a-zA-Z0-9]([^@&%$/()=?¿!.,:;]|\d)+[a-zA-Z0-9][.][a-zA-Z]{2,4}([.][a-zA-Z]{2})?/g
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        if (isFormValid()) {
+        let errores = {
+            nameError: '',
+            mensajeError: '',
+            emailError: ''
+        }
+
+        if (name.trim().length === 0) {
+            errores.nameError = 'name is required'
+        } else {
+            errores.nameError = ''
+        }
+
+        if (mensaje.trim().length === 0) {
+            errores.mensajeError = 'mensaje is required'
+        } else {
+            errores.mensajeError = ''
+        }
+
+        if (email.trim().length === 0 || !regEx.test(email)) {
+            errores.emailError = 'email is empty or wrong'
+        } else {
+            errores.emailError = ''
+        }
+
+        setError(errores)
+
+        if (errores.emailError === '' && errores.mensajeError === '' && errores.nameError === '') {
             console.log(formValues)
             reset();
         }
@@ -78,7 +66,7 @@ export const Seccion8 = () => {
                         <input
                             type='text'
                             name='name'
-                            className='control-formulario'
+                            className={error.nameError === 'name is required' ? 'error-control-formulario' : 'control-formulario'}
                             placeholder='Enter your Name'
                             autoComplete='off'
                             value={name}
@@ -89,9 +77,9 @@ export const Seccion8 = () => {
                     </div>
                     <div className='formulario'>
                         <input
-                            type='text'
+                            type='email'
                             name='email'
-                            className='control-formulario'
+                            className={error.emailError === 'email is empty or wrong' ? 'error-control-formulario' : 'control-formulario'}
                             placeholder='Enter your Email'
                             autoComplete='off'
                             value={email}
@@ -104,7 +92,7 @@ export const Seccion8 = () => {
                         <textarea
                             type='text'
                             name='mensaje'
-                            className='message-textarea'
+                            className={error.mensajeError === 'mensaje is required' ? 'error-message-textarea' : 'message-textarea'}
                             placeholder='Enter your Message'
                             autoComplete='off'
                             value={mensaje}

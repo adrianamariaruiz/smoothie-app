@@ -27,9 +27,9 @@
     flex-wrap: wrap;
     align-items: center;
     margin-left: 22%;
-    margin-top: 40px;
+    margin-top: 20px;
     width: 900px;
-    height: 350px;
+    height: auto;
 }
 
 .formulario {
@@ -37,6 +37,14 @@
 }
 
 .control-formulario {
+    height: 48px;
+    width: 746px;
+}
+
+.error-control-formulario {
+    border-color: red !important;
+    border-width: 3px;
+    outline: none;
     height: 48px;
     width: 746px;
 }
@@ -49,8 +57,14 @@
     border-color: #5abcbf;
     border-radius: 5px;
     padding: 10px 12px;
-    
 }
+
+input:focus {
+    border-color: #5abcbf;
+    border-width: 3px;
+    outline: none;
+}
+
 
 .message-textarea {
     height: 124px;
@@ -62,6 +76,32 @@
     border-color: #5abcbf;
     border-radius: 5px;
     padding: 10px 12px;
+}
+
+.message-textarea:focus {
+    border-color: #5abcbf;
+    border-width: 3px;
+    outline: none;
+}
+
+.error-message-textarea {
+   
+    border-color: red;
+    height: 124px;
+    width: 746px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 10px 12px;
+    outline: none;
+}
+
+.error-message-textarea:focus {
+    border-color: red;
+    border-width: 3px;
+    outline: none;
 }
 
 .errorMessage {
@@ -79,8 +119,9 @@
     padding: 10px 30px;
     border-style: none; 
     margin-top: 15px;
-    cursor: pointer;
     margin-left: 45%;
+    margin-bottom: 50px;
+    cursor: pointer;
 }
 
 .boton-submit-sec8:hover {

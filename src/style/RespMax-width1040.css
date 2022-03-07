@@ -262,6 +262,10 @@ phone: 440px
         width: 550px;
     }
 
+    .error-control-formulario, .error-message-textarea {
+        width: 550px;
+    }
+
 /* Footer */
 
     .contenedor-3bloques-footer {

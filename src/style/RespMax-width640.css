@@ -158,6 +158,10 @@ phone: 440px
         width: 400px;
     }
 
+    .error-control-formulario, .error-message-textarea {
+        width: 400px;
+    }
+
 /* Footer */
 
     .contenedor-3bloques-footer {
