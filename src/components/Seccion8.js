@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+import { useContext } from 'react';
+
+import { UserContext } from '../context/UserContext';
 import { useForm } from '../Hooks/useForm'
 
 export const Seccion8 = () => {
@@ -17,10 +20,14 @@ export const Seccion8 = () => {
         emailError: ''
     })
 
+    const { setUserName } = useContext(UserContext)
+
+
     const regEx = /[a-zA-Z0-9!#$%&'*/=?^_`{|}~+-]+@[a-zA-Z0-9]([^@&%$/()=?¿!.,:;]|\d)+[a-zA-Z0-9][.][a-zA-Z]{2,4}([.][a-zA-Z]{2})?/g
 
     const handleSubmit = (e) => {
         e.preventDefault();
+
         let errores = {
             nameError: '',
             mensajeError: '',
@@ -51,6 +58,12 @@ export const Seccion8 = () => {
             console.log(formValues)
             reset();
         }
+
+        const nombre = formValues.name
+        // console.log(formValues.name)
+
+        setUserName(nombre)
+
     }
 
     return (

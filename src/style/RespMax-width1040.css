@@ -42,6 +42,7 @@ phone: 440px
     .titulo-parrafo-boton-sec2 {
         padding-top: 20px;
         margin-top: 0px;
+        margin-left: 30px;
         width: 350px;
         height: 401px;
     }
@@ -105,10 +106,6 @@ phone: 440px
     }
 
 /* Seccion 4 */
-
-    .texto-cont-sec4 h1 {
-        margin-left: 10%;
-    }
     
     .texto-cont-sec4 p {
         margin-left: 10%;

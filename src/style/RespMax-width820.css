@@ -16,14 +16,14 @@ phone: 440px
     }
 
     .cont-autor-logo-linea{
-        margin-left: 60px;
+        margin-left: 100px;
         margin-top: 130px;
     }
 
     .cont-titulo-parrafo-boton{
         background-color: transparent;
         width: 400px;
-        margin-left: 60px;
+        margin-left: 100px;
     }
 
 /* Seccion 2 */
@@ -47,6 +47,7 @@ phone: 440px
     .titulo-parrafo-boton-sec2 {
         padding-top: 20px;
         margin-top: 0px;
+        margin-left: 0px;
         width: 522px;
         height: 350px;
     }
@@ -131,9 +132,7 @@ phone: 440px
     }
 
     .texto-cont-sec4 h1 {
-        margin-left: 0;
         height: 87px;
-        width: 80%;
     }
     
     .texto-cont-sec4 p {
@@ -162,7 +161,7 @@ phone: 440px
         height: 369px;
     }
 
-    .bloque1-sec4 h5, .bloque2-sec4 h5, .bloque3-sec4 h5{
+    .bloque1-sec4 hr, .bloque2-sec4 hr, .bloque3-sec4 hr{
         align-items: center;
         margin-left: 0px;
     }

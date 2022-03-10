@@ -25,21 +25,29 @@ import { Seccion8 } from './components/Seccion8';
 import { Footer } from './components/Footer';
 
 import React from 'react'
+import { UserContext } from './context/UserContext';
+import { useState } from 'react';
 
 export const App = () => {
+
+  const [userName, setUserName] = useState('');
+
   return (
 
-    <div>
-      <Seccion1 />
-      <Seccion2 />
-      <Seccion3 />
-      <Seccion4 />
-      <Seccion5 />
-      <Seccion6 />
-      <Seccion7 />
-      <Seccion8 />
-      <Footer />
-    </div>
+    <UserContext.Provider value={{ userName, setUserName }}>
+      <div>
+        <Seccion1 />
+        <Seccion2 />
+        <Seccion3 />
+        <Seccion4 />
+        <Seccion5 />
+        <Seccion6 />
+        <Seccion7 />
+        <Seccion8 />
+        <Footer />
+      </div>
+    </UserContext.Provider>
+
 
   )
 }

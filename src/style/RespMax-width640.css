@@ -14,6 +14,21 @@ phone: 440px
         background-position: 32%;
     }
 
+    .logo{
+        height: 30px;
+        width: 27px;
+    }
+
+    .autor-cont{
+        font-size: 14px; 
+    }
+
+    .cont-titulo-parrafo-boton{
+        background-color: transparent;
+        width: 400px;
+        margin-left: 100px;
+    }
+
     .titulo-parrafo-boton h1 {
         font-size: 36px;
     }
@@ -45,7 +60,7 @@ phone: 440px
     }
 
     .over300 {
-        margin-left: 70px;
+        margin-left: 20px;
         width: 340px;
         height: 410px;
     }
@@ -55,14 +70,14 @@ phone: 440px
     }
 
     .onlynatural {
-        margin-left: 70px;
+        margin-left: 20px;
         width: 340px;
         height: 410px;
     }
 
 
     .weight-loss {
-        margin-left: 70px;
+        margin-left: 20px;
         width: 340px;
         height: 410px;
     }
@@ -72,6 +87,11 @@ phone: 440px
     }
 
 /* Seccion 4 */
+
+    .texto-cont-sec4 h1 {
+        /* background-color: palevioletred; */
+        font-size: 30px;
+    }
 
     .bloque1-sec4, .bloque2-sec4, .bloque3-sec4 {
         width: 280px;
